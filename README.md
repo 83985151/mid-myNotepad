@@ -7,7 +7,7 @@
 3. UI美化；
 4. 添加代办功能；
 ### 二. 笔记条目增加时间戳
-![Alt Text](./res/drawable/01.png)
+![Alt Text](./res/drawable/01.jpg)
 
 1.定义TextView,用于显示笔记的时间信息。
 
