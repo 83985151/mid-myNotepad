@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调 -->
+    <color name="colorPrimary">#2196F3</color> <!-- 蓝色 -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- 深蓝色 -->
+    <color name="colorAccent">#64B5F6</color> <!-- 浅蓝色 -->
+
+    <!-- 背景色 -->
+    <color name="colorBackground">#F7F7FF</color> <!-- 浅蓝色背景 -->
+    <color name="black">#FF000000</color>
+    <color name="darkblue">#00093B</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 文字色 -->
+    <color name="colorTextPrimary">#0D47A1</color> <!-- 深蓝色 -->
+    <color name="colorTextSecondary">#1565C0</color> <!-- 蓝色 -->
+
+    <!-- 按钮色 -->
+    <color name="colorButton">#2196F3</color> <!-- 蓝色 -->
+
+    <color name="itemBackColor">#E1F5FE</color> <!-- 浅蓝色 -->
+    <color name="editTextColor">#0D47A1</color> <!-- 深蓝色 -->
+    <color name="hui">#B0BEC5</color> <!-- 浅灰色 -->
+
+    <color name="red">#FF0000</color>
+    <color name="s_red">#FF5656</color>
+    <color name="s_yellow">#BDB651</color>
+    <color name="s_green">#5EB762</color>
+    <color name="green">#4CAF50</color>
+
+    <color name="colorSettings">#2270DE</color>
+    <color name="colorLike">#ff77a9</color>
+    <color name="line">#FFE0E0E0</color>
+</resources>
