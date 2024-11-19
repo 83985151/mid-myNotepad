@@ -7,7 +7,7 @@
 3. UI美化；
 4. 添加代办功能；
 ### 二. 笔记条目增加时间戳
-![Alt Text](./res/drawable/app_notes.png)
+![Alt Text](./res/drawable/01.png)
 
 1.定义TextView,用于显示笔记的时间信息。
 
@@ -37,11 +37,11 @@
 ```
 
 ### 三. 添加笔记查询功能
-<img src="C:\Users\lenovo\Documents\WeChat Files\wxid_yxlu3au3iin412\FileStorage\Temp\4ce8ca801c2c0d3159c750cab2fd826.png" alt="4ce8ca801c2c0d3159c750cab2fd826" style="zoom:60%;" />
+![Alt Text](./res/drawable/021.png)
 
 
 
-<img src="C:\Users\lenovo\Documents\WeChat Files\wxid_yxlu3au3iin412\FileStorage\Temp\61e3feb69539aafc11a4e1077dc2660.png" alt="61e3feb69539aafc11a4e1077dc2660" style="zoom:60%;" />
+![Alt Text](./res/drawable/022.png)
 
 1. 添加笔记搜索方法。performSearch方法用于根据用户输入的查询字符串搜索笔记标题，并更新列表视图以显示匹配的搜索结果。它首先构建查询条件，然后执行数据库查询，获取结果集。接着，使用SimpleCursorAdapter将查询结果绑定到列表视图的指定列和视图ID上，并最终更新列表视图以显示搜索到的笔记标题和创建日期。
 
@@ -144,9 +144,9 @@ private void performTodoSearch(String query) {
 ```
 
 ### 四. UI美化
-<img src="C:\Users\lenovo\Documents\WeChat Files\wxid_yxlu3au3iin412\FileStorage\Temp\89a623867fc0da2ea71bd24ecd67494.png" alt="89a623867fc0da2ea71bd24ecd67494" style="zoom: 50%;" />
+![Alt Text](./res/drawable/031.png)
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20241119210128111.png" alt="image-20241119210128111" style="zoom:50%;" />
+![Alt Text](./res/drawable/032.png)
 
 1.根据位置循环设置颜色
 
@@ -206,7 +206,7 @@ private void performTodoSearch(String query) {
 ```
 
 ### 五. `添加代办功能`
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20241119205955000.png" alt="image-20241119205955000" style="zoom:50%;" />
+![Alt Text](./res/drawable/04.png)
 
 1. 在数据库创建时创建待办表
 
