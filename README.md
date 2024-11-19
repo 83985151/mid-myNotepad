@@ -7,7 +7,7 @@
 3. UI美化；
 4. 添加代办功能；
 ### 二. 笔记条目增加时间戳
-<img src="C:\Users\lenovo\Desktop\微信图片编辑_20241119192703.jpg" alt="微信图片编辑_20241119192703" style="zoom:50%;" />
+![Alt Text](./res/drawable/app_notes.png)
 
 1.定义TextView,用于显示笔记的时间信息。
 
