@@ -1,12 +1,14 @@
 # NotePad
 
 
-### 一. `功能`
+### 一. `基本功能`
 1. NoteList界面中笔记条目增加时间戳显示；
 2. 添加笔记查询功能（根据标题或内容查询）；
-3. UI美化；
-4. 添加代办功能；
-### 二. 笔记条目增加时间戳
+ ### 二. `扩展功能`
+1. UI美化；
+2. 添加代办功能；
+
+### 三. 笔记条目增加时间戳（基本功能）
 ![Alt Text](./res/drawable/01.jpg)
 
 1.定义TextView,用于显示笔记的时间信息。
@@ -36,7 +38,7 @@
                 }
 ```
 
-### 三. 添加笔记查询功能
+### 四. 添加笔记查询功能（基本功能）
 ![Alt Text](./res/drawable/021.png)
 
 
@@ -143,7 +145,7 @@ private void performTodoSearch(String query) {
 
 ```
 
-### 四. UI美化
+### 五. UI美化（扩展功能）
 ![Alt Text](./res/drawable/031.png)
 
 ![Alt Text](./res/drawable/032.png)
@@ -205,7 +207,7 @@ private void performTodoSearch(String query) {
 </menu>
 ```
 
-### 五. `添加代办功能`
+### 六. `添加代办功能`（扩展功能）
 ![Alt Text](./res/drawable/04.png)
 
 1. 在数据库创建时创建待办表
@@ -267,7 +269,7 @@ private void performTodoSearch(String query) {
    }
 ```
 
-3.判断是插入笔记还是待办，插入
+3.判断是插入笔记还是待办，然后插入
 
 ```
 // 根据传入的URI判断是插入笔记还是待办
@@ -363,7 +365,7 @@ private void performTodoSearch(String query) {
         }
 ```
 
-4.关于待办事项的搜索方法见：三. 添加笔记查询功能
+4.关于待办事项的搜索方法见：四. 添加笔记查询功能
 
 5.为待办事项列表项设置背景颜色、管理复选框状态，并处理复选框的点击事件，处理标题的删除线。主要是处理用户与列表项中CheckBox的交互，包括更新待办事项的完成状态和视觉反馈。
 
